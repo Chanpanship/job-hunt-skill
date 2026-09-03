@@ -40,7 +40,14 @@ by itself when you mention job hunting. Nothing to run.
 
 **Claude Code (terminal)** - run `claude` from this directory.
 
-**Codex CLI and others** - ask it to read `AGENTS.md` first.
+**Codex CLI / Codex desktop app** - open this directory as the workspace and
+ask it to read `AGENTS.md` first. Codex then uses `.codex/skills/job-hunt/SKILL.md`.
+
+When you explicitly ask to fill an application, Codex can use Computer Use in
+the existing browser session to open the posting, upload the tailored resume,
+fill ordinary fields, and draft screening answers. It stops before the final
+Submit/Apply/Send control for your review and click. It does not log in, create
+accounts, handle credentials, bypass CAPTCHAs, or answer legal attestations.
 
 From there it is a normal conversation: "find me openings in Singapore",
 "tailor my resume for this posting", "how am I doing this week". State persists

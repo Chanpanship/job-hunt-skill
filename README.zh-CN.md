@@ -38,7 +38,13 @@ skill 的发现路径是「当前工作目录下的 `.claude/skills/`」或 `~/.
 
 **Claude Code（终端）**——在本目录下运行 `claude`。
 
-**Codex CLI 及其他**——先让它读 `AGENTS.md`。
+**Codex CLI / Codex 桌面 App**——把项目目录作为工作区打开，并让它先读
+`AGENTS.md`；Codex 会按其中说明加载 `.codex/skills/job-hunt/SKILL.md`。
+
+如果你明确要求填申请表，Codex 可以用 Computer Use 操作现有浏览器窗口：打开岗位、
+上传定制简历、填写普通字段、起草筛选题答案，并在最终 Submit / Apply / Send 前停下，
+交回给你检查和点击。它不会登录、创建账号、处理凭据、绕过 CAPTCHA，也不会替你回答
+工作许可/签证、犯罪记录、既往任职和自我身份识别等法律声明题。
 
 之后就是正常对话：「帮我找新加坡的岗位」「这个岗位帮我改一版简历」「我这周投得怎么样」。
 状态存在 `workspace/`，所以下次开会话是接着走，而不是重新问你一遍。

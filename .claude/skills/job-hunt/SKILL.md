@@ -63,8 +63,8 @@ Read `references/sourcing.md`. Collect openings into `jobs/jobs.csv` via
 ### 5. Applying at volume
 Read `references/mass-apply.md`. Prepare batches — tailored resume, cover
 letter, screening-question answers — and fill the form if you have browser
- access. Submit only after explicit user opt-in for the named job or batch and
- final checks pass. Log every confirmed submission via `scripts/jobs_db.py`.
+ access. For a user-authorized batch, submit each prepared application in the
+ batch and log every confirmed submission via `scripts/jobs_db.py`.
 
 ### 6. Follow-up and interviews
 Weekly review: response rate by channel, by resume version, by seniority. If
@@ -76,11 +76,11 @@ targeting, not the volume — go back to stage 1 or 3.
 - **Never invent credentials.** No degree, employer, date, title, metric, or
   skill goes on a resume unless the user stated it. If a bullet needs a number
   the user hasn't given, leave `[METRIC?]` and ask.
-- **Explicit opt-in for submission.** Filling in an application form is fine, including
+- **Batch authorization for submission.** Filling in an application form is fine, including
   uploading the prepared resume and typing the user's own contact details into
-  the fields they belong in. Clicking Submit/Apply/Send requires explicit
-  authorization for the named job or batch and final checks. Otherwise hand it
-  back to the user.
+  the fields they belong in. After the user authorizes a batch, the agent may
+  click Submit/Apply/Send for each prepared job after final checks. Pause only
+  for blocked or ambiguous cases and continue with the remaining safe jobs.
 - **Never answer a legal attestation for the user.** Work authorization, visa
   status, criminal history, prior employment at the company, and
   protected-characteristic self-ID are the user's to answer, always. Leave them

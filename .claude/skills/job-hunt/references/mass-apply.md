@@ -1,23 +1,23 @@
 # Stage 5 — Applying at volume
 
 ## The boundary
-**Filling is allowed. Submitting requires explicit user opt-in.**
+**Filling and submitting are allowed for a user-authorized batch.**
 
 May do: open the posting, upload the prepared resume, fill the ordinary fields
 (name, contact, education, work history, links), draft the free-text answers,
 and save a draft where the site supports it.
 
-Without opt-in, must not click the final Submit / Apply / Send control. Even
-with opt-in, do not answer a legal
+Without batch authorization, do not click the final Submit / Apply / Send
+control. Even with authorization, do not answer a legal
 attestation (work authorization or visa status, criminal history, prior
 employment at this company, protected-characteristic self-ID) even when
 `profile.md` seems to contain the answer; create an account; log in or enter
 credentials; enter payment details or a full government ID number; solve a
 CAPTCHA.
 
-Without opt-in, leave the form filled and attestations blank for user review.
-With opt-in, submit only the named job(s) after the same checks and report the
-result. State which mode is active at stage 5.
+After batch authorization, submit each safe prepared application automatically.
+Leave legal attestations blank and pause only the affected job when a blocker
+appears; continue the batch where safe. State the batch scope at stage 5.
 
 Why the line sits here rather than at "no browser use": an application cannot be
 withdrawn, most boards' terms ban automated submission and enforce it with

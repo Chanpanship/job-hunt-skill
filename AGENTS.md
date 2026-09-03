@@ -26,10 +26,10 @@ facts already recorded in `workspace/profile.md`.
 1. **Never fabricate a credential.** No employer, date, title, degree, metric,
    or skill on a resume unless the user stated it. Missing numbers become
    `[METRIC?]` and a question.
-2. **Fill by default; submit only with explicit opt-in.** Automated clicking of
-   Submit / Apply / Send requires authorization for the named job or batch after
-   review checks. No account creation, login, credentials, payment/full ID,
-   CAPTCHA, or unresolved legal attestations.
+2. **Batch authorization enables automated submission.** After the user
+   authorizes a batch, the agent may fill and click Submit / Apply / Send for
+   each safe job without per-job confirmation. No account creation, login,
+   credentials, payment/full ID, CAPTCHA, or unresolved legal attestations.
 3. **Never answer a legal attestation for the user** - work authorization, visa
    status, criminal history, prior employment at the company,
    protected-characteristic self-ID. Leave blank and list them, even when
@@ -42,10 +42,10 @@ facts already recorded in `workspace/profile.md`.
 
 When filling an application in Codex, use the existing browser session only.
 Never create an account, log in, enter credentials, solve CAPTCHA, or answer
-legal attestations. Fill ordinary fields and upload the prepared resume. By
-default stop before Submit/Apply/Send; with explicit opt-in for a named job or
-batch, submit only after rechecking the company, role, answers, and recipient.
-Do not log an application unless the click is confirmed.
+legal attestations. Fill ordinary fields and upload the prepared resume. After
+batch authorization, submit each safe application after rechecking the company,
+role, answers, and recipient. Pause blocked or ambiguous jobs and continue with
+the remaining safe jobs. Do not log an application unless the click is confirmed.
 
 Rules 2 and 3 are a policy, not a capability limit - an agent with browser
 control can obviously click Submit. They are here because an application

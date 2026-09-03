@@ -1,8 +1,0 @@
-id,date_found,company,title,location,remote,seniority,url,source,salary,deadline,visa_sponsor,fit_score,status,notes
-J0001,2026-09-01,Grabbish,Machine Learning Engineer II,Singapore,hybrid,IC3,https://boards.greenhouse.io/grabbish/jobs/1,greenhouse,SGD 9-12k/mo,2026-09-20,n/a,84,screening,
-J0002,2026-09-01,Sea Marketplace,"Applied Scientist, Forecasting",Singapore,,IC3,,careers-page,,,unknown,79,interview,
-J0003,2026-09-01,Ninja Logistics,"MLE, Demand Planning",Singapore,,,,linkedin,,,unknown,76,rejected,
-J0004,2026-09-01,GovTech SG,Data Scientist (ML),Singapore,,,,mycareersfuture,,,unknown,68,applied,
-J0005,2026-09-01,Grabbish,Senior ML Engineer,,,,,linkedin,,,unknown,55,found,
-J0006,2026-09-01,Definitely-Not-A-Scam Holdings (FICTIONAL),Remote ML Engineer,,,,,telegram,,,unknown,30,applied,"RED FLAG: recruiting only via Telegram, asked for bank details before offer, no company website"
-J0007,2026-09-01,Bytedance SG,"ML Engineer, Ranking",Singapore,,,,careers-page,,,unknown,72,found,

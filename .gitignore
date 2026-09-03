@@ -3,8 +3,8 @@
 workspace/*
 !workspace/.gitkeep
 
-# resume/CV binaries dropped in the repo by mistake (the skill's own docs and
-# the fictional demo are plain .md and stay tracked)
+# resume/CV binaries dropped in the repo by mistake
+# (the skill's own docs are plain .md and stay tracked)
 *.pdf
 *.docx
 *.doc

@@ -87,11 +87,6 @@ python .claude/skills/job-hunt/scripts/jobs_db.py stats
 这是有意为之。自动提交会导致账号被封、会把 A 公司的简历投给 B 公司，而且工作许可、
 犯罪记录、前雇主这类法律声明题只有你本人能回答。
 
-## 隐私
-
-`workspace/` 存的是你真实的简历、联系方式和投递记录，已被 gitignore 排除。不要提交
-它，也建议想清楚再把这个文件夹放进会同步到云端的目录。
-
 ## 许可
 
 MIT，见 `LICENSE`。

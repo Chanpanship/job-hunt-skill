@@ -94,12 +94,6 @@ This is deliberate. Auto-submission gets accounts banned, sends wrong-company
 resumes, and answers legal attestations - work authorization, criminal history,
 prior employment - that only you may answer.
 
-## Privacy
-
-`workspace/` holds your real resume, contact details and application history. It
-is gitignored. Do not commit it, and think before putting the folder in a synced
-cloud directory.
-
 ## License
 
 MIT - see `LICENSE`.

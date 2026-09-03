@@ -31,20 +31,23 @@ Requires Python 3 (standard library only - no dependencies).
 
 ## Start
 
-In Claude Code, from the project directory:
+Point your agent at this folder, then talk to it in plain language:
 
-```bash
-claude "help me start a job search - here's my resume: <path>"
-```
+> help me start a job search - here's my resume: `<path>`
 
-In Codex CLI:
+**Claude Code (desktop app)** - open this folder as the project. The skill loads
+by itself when you mention job hunting. Nothing to run.
 
-```bash
-codex "read AGENTS.md, then start stage 0 of the job hunt with my resume at <path>"
-```
+**Claude Code (terminal)** - run `claude` from this directory.
 
-Then just talk to it. State persists in `workspace/`, so a later session
-resumes instead of re-interviewing you.
+**Codex CLI and others** - ask it to read `AGENTS.md` first.
+
+From there it is a normal conversation: "find me openings in Singapore",
+"tailor my resume for this posting", "how am I doing this week". State persists
+in `workspace/`, so a later session resumes instead of re-interviewing you.
+
+The two Python scripts bundled with the skill are called by the agent, not
+by you.
 
 ## The six stages
 
@@ -57,19 +60,6 @@ resumes instead of re-interviewing you.
 | 4 Sourcing | `jobs.csv` with a 0-100 fit score per opening |
 | 5 Applying | per-job packets: resume, cover letter, screening answers, filling guide |
 | 6 Follow-up | weekly response-rate review with explicit decision rules |
-
-## Tracker
-
-```bash
-python .claude/skills/job-hunt/scripts/jobs_db.py add --company "Acme" --title "ML Engineer" --source greenhouse --fit 82
-```
-
-```bash
-python .claude/skills/job-hunt/scripts/jobs_db.py stats
-```
-
-Under 5% response after 30 applications and `stats` tells you to fix the resume
-or the targeting rather than send more.
 
 ## What it will not do
 

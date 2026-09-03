@@ -30,20 +30,20 @@ skill 的发现路径是「当前工作目录下的 `.claude/skills/`」或 `~/.
 
 ## 开始用
 
-在 Claude Code 里，于项目目录下：
+把 agent 指向这个文件夹，然后用大白话跟它说：
 
-```bash
-claude "帮我找工作，我的简历在 <路径>"
-```
+> 帮我找工作，我的简历在 `<路径>`
 
-在 Codex CLI 里：
+**Claude Code（桌面 App）**——把这个文件夹作为项目打开。你提到找工作相关的事情时 skill 自动加载，无需执行任何命令。
 
-```bash
-codex "读 AGENTS.md，然后用 <路径> 的简历开始阶段 0"
-```
+**Claude Code（终端）**——在本目录下运行 `claude`。
 
-之后就是正常对话。状态存在 `workspace/`，所以下次开会话是接着走，而不是重新问你一遍。
+**Codex CLI 及其他**——先让它读 `AGENTS.md`。
 
+之后就是正常对话：「帮我找新加坡的岗位」「这个岗位帮我改一版简历」「我这周投得怎么样」。
+状态存在 `workspace/`，所以下次开会话是接着走，而不是重新问你一遍。
+
+skill 自带的两个 Python 脚本是 agent 调用的，不需要你动手。
 ## 六个阶段
 
 | 阶段 | 产出 |
@@ -55,18 +55,6 @@ codex "读 AGENTS.md，然后用 <路径> 的简历开始阶段 0"
 | 4 找岗 | `jobs.csv`，每个岗位一个 0-100 匹配分 |
 | 5 投递 | 每岗一个包：简历、cover letter、筛选题答案、逐字段填表说明 |
 | 6 复盘 | 每周回复率复盘，附明确的决策规则 |
-
-## 追踪
-
-```bash
-python .claude/skills/job-hunt/scripts/jobs_db.py add --company "Acme" --title "ML Engineer" --source greenhouse --fit 82
-```
-
-```bash
-python .claude/skills/job-hunt/scripts/jobs_db.py stats
-```
-
-投了 30 份回复率低于 5% 时，`stats` 会直接告诉你去改简历或改目标，而不是继续加量。
 
 ## 它不会做的事
 

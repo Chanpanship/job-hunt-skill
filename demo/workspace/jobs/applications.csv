@@ -1,0 +1,9 @@
+date,job_id,company,title,status,resume_version,notes
+2026-09-01,J0001,Grabbish,Machine Learning Engineer II,applied,v2-tailored,
+2026-09-01,J0002,Sea Marketplace,"Applied Scientist, Forecasting",applied,v2-tailored,
+2026-09-01,J0003,Ninja Logistics,"MLE, Demand Planning",applied,v2-tailored,
+2026-09-01,J0004,GovTech SG,Data Scientist (ML),applied,v2-tailored,
+2026-09-01,J0006,Definitely-Not-A-Scam Holdings (FICTIONAL),Remote ML Engineer,applied,v2-tailored,
+2026-09-01,J0001,Grabbish,Machine Learning Engineer II,screening,,
+2026-09-01,J0002,Sea Marketplace,"Applied Scientist, Forecasting",interview,,
+2026-09-01,J0003,Ninja Logistics,"MLE, Demand Planning",rejected,,

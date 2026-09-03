@@ -1,0 +1,22 @@
+Machine Learning Engineer II - Marketplace Intelligence (Singapore, hybrid)
+
+About the role
+You will own production forecasting and ranking models that decide inventory
+and pricing across our marketplace. You will work with product and data
+engineering to take models from notebook to production.
+
+Requirements
+- 3+ years building machine learning models in production
+- Strong Python and SQL
+- Experience with time series forecasting at scale
+- Experience deploying models: Docker, Kubernetes, CI/CD
+- Experience with a workflow orchestrator (Airflow, Dagster)
+- Experience with Spark or another distributed data processing framework
+- Experience running A/B tests and reading experiment results
+- Familiarity with MLflow or another experiment tracking tool
+- Bachelor's in Computer Science, Engineering, Statistics or similar
+
+Nice to have
+- E-commerce or marketplace domain experience
+- PyTorch
+- Feature store experience

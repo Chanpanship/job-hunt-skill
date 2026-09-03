@@ -1,0 +1,16 @@
+# ---- personal data: never commit ----
+# workspace/ holds your real resume, contact details and application history.
+workspace/*
+!workspace/.gitkeep
+
+# resume/CV binaries dropped in the repo by mistake (the skill's own docs and
+# the fictional demo are plain .md and stay tracked)
+*.pdf
+*.docx
+*.doc
+
+# ---- misc ----
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

@@ -61,15 +61,26 @@ by you.
 | 5 Applying | per-job packets: resume, cover letter, screening answers, filling guide |
 | 6 Follow-up | weekly response-rate review with explicit decision rules |
 
-## What it will not do
+## Where the line is
 
-Submit applications, send messages, create accounts, solve CAPTCHAs, enter your
-personal data into websites, or put a claim on your resume that you did not
-make. It prepares everything; you press Send.
+The skill will fill in an application for you - upload the resume, enter your
+contact details, draft the free-text answers. It stops at the final
+Submit button.
 
-This is deliberate. Auto-submission gets accounts banned, sends wrong-company
-resumes, and answers legal attestations - work authorization, criminal history,
-prior employment - that only you may answer.
+Two things it leaves to you, always:
+
+- **The submit click.** An application cannot be withdrawn, and most job boards'
+  terms ban automated submission and enforce it with account bans.
+- **Legal attestations** - work authorization, visa status, criminal history,
+  prior employment at the company. A wrong answer there can void an offer after
+  you have signed, so they stay blank until you fill them.
+
+It also will not create accounts, log in, handle credentials or payment details,
+solve CAPTCHAs, or put a claim on your resume that you did not make.
+
+This is a policy, not a capability limit - an agent with browser control can
+obviously click Submit. Whether a given agent honours these files is up to that
+agent.
 
 ## License
 

@@ -1,14 +1,31 @@
 # Stage 5 — Applying at volume
 
 ## The boundary
-Claude prepares application packets. **The user submits them.** Claude does not
-fill web forms, does not click Submit, does not send email or LinkedIn messages,
-does not create accounts, and does not type the user's personal data into a
-site. State this once when the stage starts, then work within it.
+**Filling is allowed. Submitting is not.**
 
-This is not a formality: auto-submission gets accounts banned, sends
-wrong-company resumes, and answers legal attestations (work authorization,
-criminal history, prior employment) that only the user may answer.
+May do: open the posting, upload the prepared resume, fill the ordinary fields
+(name, contact, education, work history, links), draft the free-text answers,
+and save a draft where the site supports it.
+
+Must not do: click the final Submit / Apply / Send control; answer a legal
+attestation (work authorization or visa status, criminal history, prior
+employment at this company, protected-characteristic self-ID) even when
+`profile.md` seems to contain the answer; create an account; log in or enter
+credentials; enter payment details or a full government ID number; solve a
+CAPTCHA.
+
+Leave the form filled and the attestations blank, list exactly what is
+outstanding, and let the user review and press Submit. State this once when the
+stage starts.
+
+Why the line sits here rather than at "no browser use": an application cannot be
+withdrawn, most boards' terms ban automated submission and enforce it with
+account bans, bulk automation is how wrong-company resumes get sent, and a
+wrong answer on an attestation can void an offer after signing. None of that is
+solved by the agent being more careful.
+
+This is a policy, not a capability limit. Whether a given agent honours it is up
+to that agent.
 
 ## Batch workflow
 Work in batches of 5-10, highest fit_score first. For each job produce

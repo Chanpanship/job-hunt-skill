@@ -29,19 +29,6 @@ hunting; other agents should be pointed at `AGENTS.md`.
 
 Requires Python 3 (standard library only - no dependencies).
 
-## See it work first
-
-`DEMO.md` walks through a filled-in fictional case under `demo/workspace/`, with
-real script output - including one place where the tooling's own metric rewards
-a *worse* resume. Try:
-
-```bash
-python .claude/skills/job-hunt/scripts/ats_check.py demo/workspace/resume/v1-before.md --jd demo/workspace/jobs/jd/grabbish-mle.txt
-```
-
-That resume gets 1 error and 17 warnings. The tailored version built from the
-same facts gets zero.
-
 ## Start
 
 In Claude Code, from the project directory:

@@ -28,17 +28,6 @@ skill 的发现路径是「当前工作目录下的 `.claude/skills/`」或 `~/.
 
 依赖：Python 3（仅标准库，无第三方依赖）。
 
-## 先看效果
-
-`DEMO.md` 用 `demo/workspace/` 里一个虚构案例走完了整个流程，附真实脚本输出——
-包括一处**工具自己的指标反而奖励了更差的简历**。试试：
-
-```bash
-python .claude/skills/job-hunt/scripts/ats_check.py demo/workspace/resume/v1-before.md --jd demo/workspace/jobs/jd/grabbish-mle.txt
-```
-
-那份简历会得到 1 个 error、17 个 warning。用同样的事实重写的定制版是零。
-
 ## 开始用
 
 在 Claude Code 里，于项目目录下：

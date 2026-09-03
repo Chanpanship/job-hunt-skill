@@ -45,8 +45,8 @@ ask it to read `AGENTS.md` first. Codex then uses `.codex/skills/job-hunt/SKILL.
 
 When you explicitly ask to fill an application, Codex can use Computer Use in
 the existing browser session to open the posting, upload the tailored resume,
-fill ordinary fields, and draft screening answers. It stops before the final
-Submit/Apply/Send control for your review and click. It does not log in, create
+fill ordinary fields, and draft screening answers. After one batch authorization,
+it can click the final Submit/Apply/Send control for each safe application. It does not log in, create
 accounts, handle credentials, bypass CAPTCHAs, or answer legal attestations.
 
 From there it is a normal conversation: "find me openings in Singapore",
@@ -86,7 +86,7 @@ Two things it leaves to you, always:
 It also will not create accounts, log in, handle credentials or payment details,
 solve CAPTCHAs, or put a claim on your resume that you did not make.
 
-Automatic submission is opt-in per named job or batch and still cannot bypass
+Automatic submission is opt-in per batch and still cannot bypass
 login, CAPTCHAs, legal attestations, payment, or full government-ID fields.
 
 ## License

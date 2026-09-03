@@ -36,7 +36,7 @@ is available, use Codex Computer Use for the visible form:
    click Submit, Apply, Send, Finish, or equivalent for every safe application.
    Never submit with unresolved legal attestations, CAPTCHA, login, credentials,
    payment, full government ID, or ambiguous declarations.
-6. Only after the user reports that they submitted, log the application with
+6. After a successful automated click, log the application with
    `python .claude/skills/job-hunt/scripts/jobs_db.py log <job_id> --status applied`.
 
 ## Computer Use operating rules

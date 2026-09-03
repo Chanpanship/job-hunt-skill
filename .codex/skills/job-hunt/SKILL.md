@@ -5,6 +5,10 @@ description: Run the job-search pipeline, including preparing and safely filling
 
 # Job Hunt for Codex
 
+`.claude/skills/job-hunt/SKILL.md` is the single source of truth for the
+pipeline, state, safety policy, and submission policy. This file is only the
+Codex adapter; do not maintain a second copy of the shared rules here.
+
 Read `.claude/skills/job-hunt/SKILL.md` first for the canonical pipeline, state
 layout, sourcing rules, and safety policy. Then read the relevant reference under
 `.claude/skills/job-hunt/references/`; for applications, read `mass-apply.md`.

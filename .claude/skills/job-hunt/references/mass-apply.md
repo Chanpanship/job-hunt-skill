@@ -1,22 +1,23 @@
 # Stage 5 — Applying at volume
 
 ## The boundary
-**Filling is allowed. Submitting is not.**
+**Filling is allowed. Submitting requires explicit user opt-in.**
 
 May do: open the posting, upload the prepared resume, fill the ordinary fields
 (name, contact, education, work history, links), draft the free-text answers,
 and save a draft where the site supports it.
 
-Must not do: click the final Submit / Apply / Send control; answer a legal
+Without opt-in, must not click the final Submit / Apply / Send control. Even
+with opt-in, do not answer a legal
 attestation (work authorization or visa status, criminal history, prior
 employment at this company, protected-characteristic self-ID) even when
 `profile.md` seems to contain the answer; create an account; log in or enter
 credentials; enter payment details or a full government ID number; solve a
 CAPTCHA.
 
-Leave the form filled and the attestations blank, list exactly what is
-outstanding, and let the user review and press Submit. State this once when the
-stage starts.
+Without opt-in, leave the form filled and attestations blank for user review.
+With opt-in, submit only the named job(s) after the same checks and report the
+result. State which mode is active at stage 5.
 
 Why the line sits here rather than at "no browser use": an application cannot be
 withdrawn, most boards' terms ban automated submission and enforce it with
@@ -24,8 +25,8 @@ account bans, bulk automation is how wrong-company resumes get sent, and a
 wrong answer on an attestation can void an offer after signing. None of that is
 solved by the agent being more careful.
 
-This is a policy, not a capability limit. Whether a given agent honours it is up
-to that agent.
+Automated submission still depends on site terms, rate limits, CAPTCHA, login,
+and page-state checks. If any check fails, stop and hand control to the user.
 
 ## Batch workflow
 Work in batches of 5-10, highest fit_score first. For each job produce

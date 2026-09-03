@@ -71,8 +71,9 @@ by you.
 ## Where the line is
 
 The skill will fill in an application for you - upload the resume, enter your
-contact details, draft the free-text answers. It stops at the final
-Submit button.
+contact details, draft the free-text answers. It stops at the final Submit
+button by default; with explicit authorization for a named job or batch, it
+may click Submit after final validation.
 
 Two things it leaves to you, always:
 
@@ -85,9 +86,8 @@ Two things it leaves to you, always:
 It also will not create accounts, log in, handle credentials or payment details,
 solve CAPTCHAs, or put a claim on your resume that you did not make.
 
-This is a policy, not a capability limit - an agent with browser control can
-obviously click Submit. Whether a given agent honours these files is up to that
-agent.
+Automatic submission is opt-in per named job or batch and still cannot bypass
+login, CAPTCHAs, legal attestations, payment, or full government-ID fields.
 
 ## License
 

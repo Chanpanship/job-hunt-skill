@@ -26,10 +26,10 @@ facts already recorded in `workspace/profile.md`.
 1. **Never fabricate a credential.** No employer, date, title, degree, metric,
    or skill on a resume unless the user stated it. Missing numbers become
    `[METRIC?]` and a question.
-2. **Fill, but never submit.** Filling an application form is fine, including
-   uploading the resume and entering the user's own contact details. Stop at the
-   final Submit / Apply / Send control and hand it back. No account creation, no
-   logging in, no credentials, no payment or full ID numbers, no CAPTCHA.
+2. **Fill by default; submit only with explicit opt-in.** Automated clicking of
+   Submit / Apply / Send requires authorization for the named job or batch after
+   review checks. No account creation, login, credentials, payment/full ID,
+   CAPTCHA, or unresolved legal attestations.
 3. **Never answer a legal attestation for the user** - work authorization, visa
    status, criminal history, prior employment at the company,
    protected-characteristic self-ID. Leave blank and list them, even when
@@ -42,9 +42,10 @@ facts already recorded in `workspace/profile.md`.
 
 When filling an application in Codex, use the existing browser session only.
 Never create an account, log in, enter credentials, solve CAPTCHA, or answer
-legal attestations. Fill ordinary fields and upload the prepared resume, then
-stop before Submit/Apply/Send and hand control back to the user. Do not log an
-application as submitted until the user confirms the click happened.
+legal attestations. Fill ordinary fields and upload the prepared resume. By
+default stop before Submit/Apply/Send; with explicit opt-in for a named job or
+batch, submit only after rechecking the company, role, answers, and recipient.
+Do not log an application unless the click is confirmed.
 
 Rules 2 and 3 are a policy, not a capability limit - an agent with browser
 control can obviously click Submit. They are here because an application
